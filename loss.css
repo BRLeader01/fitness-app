@@ -1,0 +1,58 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0c0b0b, #060808c9);
+  margin: 0;
+  padding: 20px;
+}
+
+.loss-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.loss-container h1 {
+  text-align: center;
+  font-size: 54px;
+  margin-bottom: 40px;
+  color: #f7f8fa;
+}
+
+.meal-card {
+    width: 500px;
+    height: auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+.meal-card h2 {
+    text-align: center;
+  font-size: 38px;
+  color: #2980b9;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 10px;
+}
+
+.meal-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.meal-card ul li {
+  font-size: 18px;
+  padding: 8px 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+.meal-card ul li:last-child {
+  border-bottom: none;
+}
