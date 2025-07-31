@@ -56,3 +56,33 @@ body {
 .meal-card ul li:last-child {
   border-bottom: none;
 }
+@media (max-width: 480px) {
+  body {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .loss-container {
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .loss-container h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .meal-card {
+    width: 100%;
+    margin: 10px 0;
+    padding: 20px;
+  }
+
+  .meal-card h2 {
+    font-size: 26px;
+  }
+
+  .meal-card ul li {
+    font-size: 16px;
+  }
+}
