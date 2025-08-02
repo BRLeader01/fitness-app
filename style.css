@@ -10,7 +10,6 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   padding: 40px 15px;
 }
 h1 {
@@ -204,4 +203,10 @@ input:focus, select:focus {
     font-size: 1rem;
     text-align: center;
   }
+}
+footer{
+  position: absolute;
+  color: white;
+  font-size: 19px;
+  font-weight: bolder;
 }
