@@ -9,13 +9,17 @@ body {
   padding: 20px;
 }
 
-.diet-container {
+.gain-container {
   max-width: 1000px;
   margin: 23px;
   padding: 20px;
 }
 
-.diet-container h1 {
+.gain-container h1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
   text-align: center;
   font-size: 54px;
   margin-bottom: 40px;
@@ -56,24 +60,25 @@ body {
 .meal-card ul li:last-child {
   border-bottom: none;
 }
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   body {
     flex-direction: column;
     padding: 10px;
   }
 
-  .diet-container {
+  .gain-container {
     padding: 10px;
     margin: 10px 0;
   }
 
-  .diet-container h1 {
+  .gain-container h1 {
     font-size: 32px;
     margin-bottom: 20px;
   }
 
   .meal-card {
     width: 100%;
+    max-width: 100%;
     margin: 10px 0;
     padding: 20px;
   }
